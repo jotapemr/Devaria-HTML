@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Fale Conosco</title>
+    </head>
+    <body>
+        <header>
+            <h1>Fale conosco através daqui.</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="professores.html">Professores</a></li>
+                    <li><a href="FaleConosco.html">Fale Conosco</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2>Para entrar em contato preencha os campos abaixo</h2>
+            <form action="index.html">
+                <p>
+                    <label>Nome:</label>
+                    <input type="text" name="Nome" maxlength="70"/>
+                </p>
+                <p>
+                    <label>E-mail:</label>
+                    <input type="text" name="Email" maxlength="150"/>
+                </p>
+                <p>
+                    <label>Comentários:</label>
+                    <textarea name="Comentario" cols="50" rows="4"></textarea>
+                </p>
+                <p>
+                    <label>Sexo:</label>
+                    <input type="radio" name="Sexo" /><span>Feminino</span>         <!--usar o mesmo nome pra não poder marcar os 2-->
+                    <input type="radio" name="Sexo" /><span>Masculino</span>
+                </p>
+                <p>
+                    <label>Aonde nos conheceu?</label>
+                    <select name="Conheceu">
+                        <option selected>Youtube</option>
+                        <option>Amigos</option>
+                        <option>Google</option>
+                        <option>Outros</option>
+                    </select>
+                </p>
+                <p>
+                    <input type="checkbox" name="Aceite"/>
+                    <span>Aceito receber novidades</span>
+                </p>
+                <p>
+                    <input type="submit" name="Enviar" value="Enviar"/>
+                    <input type="reset" name="Limpar" value="Limpar"/>
+                </p>       
+            </form>
+        </main>
+        <footer>
+            <section>
+                <span>contato@devaria.com.br</span> <br/>
+                <span>Conheça o canal do youtube</span>
+            </section>
+        </footer>
+    </body>
+</html>
